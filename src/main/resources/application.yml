@@ -5,9 +5,9 @@ spring:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: Asia/Tashkent
   datasource:
-    username: <postgres - username>
-    url: jdbc:postgresql://localhost:5432/<database - name>
-    password: <postgres - user - password>
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/demo_bot
+    password: sardor
   jpa:
     hibernate:
       ddl-auto: update
